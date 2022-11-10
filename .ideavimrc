@@ -1,0 +1,23 @@
+" Enable relative lines display
+set nu rnu
+
+" Enable yank, d and x to appear in clipboard for later pasting
+set clipboard+=unnamed
+
+" Enable incremental search
+set incsearch
+
+" Enable search highlight
+set hlsearch
+
+" Show current VIM mode
+set showmode
+
+" ------- REMAPS -------
+" Enable quiting insert mode by typing jk and remap C-6 to Space key
+nnoremap <SPACE> <C-6>
+inoremap jk <C-[>
+
+" Center the screen upon pressing movement keys
+nnoremap <C-O> <C-O>zz
+nnoremap <C-I> <C-I>zz
