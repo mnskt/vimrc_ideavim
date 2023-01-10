@@ -21,3 +21,5 @@ inoremap jk <C-[>
 " Center the screen upon pressing movement keys
 nnoremap <C-O> <C-O>zz
 nnoremap <C-I> <C-I>zz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
